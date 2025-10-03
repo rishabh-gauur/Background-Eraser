@@ -1,7 +1,12 @@
+
+# Core application dependencies
 fastapi
-rembg
 Pillow
 jinja2
+
+# Production ASGI server
 gunicorn
-uvicorn
-onnxruntime
+
+# Core background removal (the problematic packages)
+rembg[cli]
+onnxruntime-linux-x64
