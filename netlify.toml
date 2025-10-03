@@ -1,3 +1,9 @@
+# 1. Build Settings
+[build]
+  command = "npm run build"
+  publish = "dist" # Change to "build" or "public" if necessary
+
+# 2. SPA Rewrite Rule (Fixes 404 on refresh)
 [[redirects]]
   from = "/*"
   to = "/index.html"
