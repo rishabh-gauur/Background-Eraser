@@ -1,7 +1,7 @@
 fastapi
-uvicorn # (You'll likely need this to run the FastAPI app)
 rembg
 Pillow
 jinja2
-python-dotenv # (Optional, but often helpful for configuration)
 gunicorn
+uvicorn
+onnxruntime
