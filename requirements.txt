@@ -4,3 +4,4 @@ rembg
 Pillow
 jinja2
 python-dotenv # (Optional, but often helpful for configuration)
+gunicorn
